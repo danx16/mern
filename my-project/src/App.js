@@ -1,7 +1,15 @@
 import React from 'react';
+import './App.css';
+import GoalList from './components/GoalList';
+
 
 const App = () => {
-  return <h1 title="This works!">Hi, <span>this</span> is ReactJS!</h1>; // React.createElement('h1', {title:'sample'}, 'This is dan');
+  return (
+    <div className='app'>
+    <h2>Course Goal</h2>
+      <GoalList />
+    </div>
+  )
 };
 
 export default App;
